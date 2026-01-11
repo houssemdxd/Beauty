@@ -2,21 +2,21 @@
 {
   "id": 1,
   "title": "Moisturizing Shampoo",
-  "image": "11.jpg",
+  "image": "haircaid4.jpg",
   "price": 18.99,
   "category": "Hair Care"
 },
 {
   "id": 2,
   "title": "Repair Conditioner",
-  "image": "7.jpg",
+  "image": "haircar3.jpg",
   "price": 21.99,
   "category": "Hair Care"
 },
 {
   "id": 3,
   "title": "Nourishing Hair Mask",
-  "image": "6.jpg",
+  "image": "haircair2.jpg",
   "price": 29.99,
   "category": "Hair Care"
 }
@@ -52,7 +52,7 @@
 {
   "id": 8,
   "title": "Bleaching Powder",
-  "image": "8.jpg",
+  "image": "haircoloring.jpg",
   "price": 39.99,
   "category": "Coloring"
 },
@@ -66,28 +66,28 @@
 {
   "id": 10,
   "title": "Ceramic Hair Straightener",
-  "image": "8.jpg",
+  "image": "tool.png",
   "price": 99.99,
   "category": "Tools"
 },
 {
   "id": 11,
   "title": "Hair Cutting Scissors",
-  "image": "8.jpg",
+  "image": "tool1.jpg",
   "price": 79.99,
   "category": "Tools"
 }
 ,{
   "id": 12,
   "title": "Professional Hair Brush",
-  "image": "8.jpg",
   "price": 24.99,
-  "category": "Accessories"
+  "category": "Accessories","image": "tool2.jpg"
+
 },
-{
+{  
   "id": 13,
   "title": "Hair Clips Set",
-  "image": "8.jpg",
+  "image": "tool5.jpg",
   "price": 9.99,
   "category": "Accessories"
 }

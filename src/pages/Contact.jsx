@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import Appointemnt from '../components/Appointment/Appointemnt'
 
 export default function Contact() {
   return (
@@ -7,6 +8,6 @@ export default function Contact() {
 <NavBar></NavBar>
 
       
-      Contact</div>
+<Appointemnt/>      </div>
   )
 }

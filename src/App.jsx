@@ -33,9 +33,9 @@ function App() {
 
 
 </Route>
-
-<Route path='/contact' element ={<Contact></Contact>}></Route>
 <Route path='/blog' element ={<Blog></Blog>}></Route>
+<Route path='/contact' element ={<Contact></Contact>}></Route>
+
 </Routes>
 </BrowserRouter>
 
