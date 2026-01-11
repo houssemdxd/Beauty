@@ -1,0 +1,96 @@
+[
+{
+  "id": 1,
+  "title": "Moisturizing Shampoo",
+  "image": "11.jpg",
+  "price": 18.99,
+  "category": "Hair Care"
+},
+{
+  "id": 2,
+  "title": "Repair Conditioner",
+  "image": "7.jpg",
+  "price": 21.99,
+  "category": "Hair Care"
+},
+{
+  "id": 3,
+  "title": "Nourishing Hair Mask",
+  "image": "6.jpg",
+  "price": 29.99,
+  "category": "Hair Care"
+}
+,{
+  "id": 4,
+  "title": "Hair Styling Gel",
+  "image": "5.jpg",
+  "price": 14.99,
+  "category": "Styling"
+},
+{
+  "id": 5,
+  "title": "Volume Hair Spray",
+  "image": "6.jpg",
+  "price": 16.99,
+  "category": "Styling"
+},
+{
+  "id": 6,
+  "title": "Curl Defining Cream",
+  "image": "9.jpg",
+  "price": 22.99,
+  "category": "Styling"
+}
+,
+{
+  "id": 7,
+  "title": "Professional Hair Dye Kit",
+  "image": "8.jpg",
+  "price": 34.99,
+  "category": "Coloring"
+},
+{
+  "id": 8,
+  "title": "Bleaching Powder",
+  "image": "8.jpg",
+  "price": 39.99,
+  "category": "Coloring"
+},
+{
+  "id": 9,
+  "title": "Professional Hair Dryer",
+  "image": "8.jpg",
+  "price": 129.99,
+  "category": "Tools"
+},
+{
+  "id": 10,
+  "title": "Ceramic Hair Straightener",
+  "image": "8.jpg",
+  "price": 99.99,
+  "category": "Tools"
+},
+{
+  "id": 11,
+  "title": "Hair Cutting Scissors",
+  "image": "8.jpg",
+  "price": 79.99,
+  "category": "Tools"
+}
+,{
+  "id": 12,
+  "title": "Professional Hair Brush",
+  "image": "8.jpg",
+  "price": 24.99,
+  "category": "Accessories"
+},
+{
+  "id": 13,
+  "title": "Hair Clips Set",
+  "image": "8.jpg",
+  "price": 9.99,
+  "category": "Accessories"
+}
+
+
+]

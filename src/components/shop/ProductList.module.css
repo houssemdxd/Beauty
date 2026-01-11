@@ -1,0 +1,56 @@
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 100px;
+}
+.productContainer{
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(180deg, #ffffff, #faf7f8);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+}
+.search{
+
+     background: linear-gradient(180deg, #ffffff, #faf7f8);
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+}
+.search input[type="input"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  border: 2px solid #d4d4d4;
+  background-color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+/* Checked state */
+.search input:focus {
+  border-color: #e96a77;
+}
+
+/* Checkmark */
+.search input[type="input"]::after {
+  content: "✓";
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -58%);
+}
+
+/* Hover effect */
+.search input[type="checkbox"]:hover {
+  border-color: #e96a77;
+}

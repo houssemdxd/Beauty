@@ -1,0 +1,36 @@
+
+.layout{
+display: flex;
+flex-direction: column;
+
+}
+.mainlayout
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.line{
+    width: 76%;
+   border: none;
+  height: 2px;
+  background-color:#f2b0b492;
+  margin: 60px;
+}
+.service 
+{
+    font-size: 42px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 1.2;
+    font-family: "Playfair Display", serif;
+}
+ p 
+{
+    line-height: 1.7;
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,67 @@
+.albumContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+.albumContainer div{
+
+width: 30%;
+
+}
+.albumItem
+{
+    display: flex;
+    flex-direction: column;
+}
+.item 
+{
+    width: 100% !important;
+}
+.middleRow{
+    width: 40% !important;
+}
+.container {
+    margin: 100px;
+    align-self: center;
+}
+.container ul 
+{
+    display: flex;
+    gap: 10%;
+    list-style: none;
+    text-decoration: none;
+    color: black ;
+    justify-content: center;
+    margin: 50px;
+}
+.active
+{    border-bottom: 2px solid #f2b0b4 !important;
+    color: #f2b0b4;
+}
+.listItem 
+{
+    font-family: "Playfair Display", serif;
+}
+.container ul :hover 
+{
+    border-bottom: 2px solid #f2b0b4 !important;
+    
+
+}
+ .one{
+height: 200px;
+width:300px;
+color: red;
+align-self: flex-start;
+
+}
+.one img{
+
+object-fit:fill;
+height: 255px;
+width: 255px;
+}

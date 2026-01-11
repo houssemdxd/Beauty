@@ -1,0 +1,45 @@
+.serviceCard{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 17%;
+    border: 1px solid rgb(241, 232, 232) ;
+    text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+        transform-origin: center !important; /* VERY IMPORTANT */
+
+
+
+}
+.serviceCard img {
+    align-self: center;
+    height: 50px;
+    width: 50px;
+}
+.serviceCard p 
+{
+    line-height: 1.7;
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.serviceCard h5
+{
+font-size: 22px;
+    margin-bottom: 1px;
+    font-family: "Playfair Display", serif;
+}
+
+.serviceCard:hover h5 {
+  color: #bca858;
+}
+
+.serviceCard:hover 
+{
+  box-shadow: 2px 2px 10px #e1ded7;
+  transform: scale(1.02);
+
+}

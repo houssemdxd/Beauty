@@ -1,0 +1,24 @@
+.navApp ul {
+
+
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-top: 2px;
+
+
+
+}
+.navApp
+{
+   
+}
+.navApp ul li 
+{
+    margin-top: 5px;
+}
+.navApp ul li :hover{
+        border-bottom: 3px solid #f2b0b4;
+
+
+}

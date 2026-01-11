@@ -1,0 +1,42 @@
+.mainCard{
+background-color: #e1ded7;
+height: 500px;
+ 
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+
+}
+.mainCard h1 
+{
+    font-family: auto;
+}
+.mainCard img
+{
+    width: 100%;
+    height: 500px;
+}
+.subtitle{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-content: center;
+    padding: 0.5%;
+}
+.discoverButton
+{
+    align-self: center;
+    background-color: #e7af8d;
+    color: white;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.discoverButton :hover 
+{
+    background-color: #e1ded7 !important;
+}

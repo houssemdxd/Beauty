@@ -1,0 +1,8 @@
+.layout{
+   display: flex;
+   margin: 5%;
+   
+}
+.layout h4{
+    color: rgb(23, 37, 3);
+}
