@@ -13,6 +13,8 @@ import Contact from './pages/Contact'
 import ProductList from './components/shop/ProductList'
 import { ProductProvider } from './ApiContext/ProductContext'
 import Layout from './components/shop/Layout'
+import ProductDetail from './components/shop/productDetail/ProductDetail'
+
 function App() {
 
   return (
@@ -27,6 +29,9 @@ function App() {
 <Route path='/shop' element={ <ProductProvider><Shop/></ProductProvider> }>
 
 <Route index element={<Layout />} />
+<Route path=':id' element={<ProductDetail />} />
+
+
 </Route>
 
 <Route path='/contact' element ={<Contact></Contact>}></Route>
