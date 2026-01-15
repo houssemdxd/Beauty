@@ -13,7 +13,7 @@ export default function NavApp() {
 </li>
 
 <li>
-<NavLink to ="/shop">Mini-Shop</NavLink>
+<NavLink to ="/shop">Shop</NavLink>
 </li>
 
 <li>
@@ -21,7 +21,7 @@ export default function NavApp() {
 </li>
 
 <li>
-<NavLink to ="/contact">Contact</NavLink>
+<NavLink to ="/contact">Appointment</NavLink>
 </li>
 
 </ul>

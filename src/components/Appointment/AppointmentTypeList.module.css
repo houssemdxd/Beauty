@@ -1,3 +1,13 @@
 .appointmentTypeList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    justify-content: center;
+    width :100%;
+    align-self: center;
     
+}
+.appoinmentListContainer{
+    display: flex;
+    justify-content: center;
 }

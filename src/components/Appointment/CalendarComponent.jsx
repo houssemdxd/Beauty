@@ -13,7 +13,6 @@ export default function CalendarComponent() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '20px' }}>
-      <h2>📅 React Calendar Example</h2>
       <Calendar
         onChange={onChange}
         value={date}

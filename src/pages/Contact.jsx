@@ -5,7 +5,9 @@ import Appointemnt from '../components/Appointment/Appointemnt'
 export default function Contact() {
   return (
     <div>
+
 <NavBar></NavBar>
+<h2>Book Appointment</h2>
 
       
 <Appointemnt/>      </div>
