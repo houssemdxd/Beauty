@@ -6,7 +6,7 @@ export default function AppointmentTypeList() {
 
 
 
-const AppoitmentsTypes = ["first text ","second text ","third text ","fourth text "]
+const AppoitmentsTypes = ["Haircut and styling is for cutting hair. ","Hair coloring is for changing color.","Hair treatment is for hair care.","Special services are for members ."]
 const [selecetdItem,setSelelectedItem] = useState("");
 
 

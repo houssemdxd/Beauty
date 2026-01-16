@@ -20,7 +20,7 @@
 .checked
 {
 color: white;
-  background-color: #006edc;
+  background-color: #f2b0b4ce !important;
 }
 .checked p{
   color: white;

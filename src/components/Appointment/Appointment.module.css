@@ -25,3 +25,24 @@ width:350px !important;
     justify-content: space-between;
     gap: 5%;
 }
+.bookButton
+{
+
+    background-color: #bca858;
+     font-size: 16px;
+    font-weight: 400;
+    color:white;
+    width: 150px;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgb(220, 216, 216);
+    font-family: "Playfair Display", serif;
+    margin-top: 20px;
+    margin: 50px;
+}
+
+.bookButton:hover{
+    background-color: black;
+}
+
+

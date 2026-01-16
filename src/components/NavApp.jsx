@@ -17,11 +17,11 @@ export default function NavApp() {
 </li>
 
 <li>
-<NavLink to ="/blog">Blog</NavLink>
+<NavLink to ="/contact">Appointment</NavLink>
 </li>
 
 <li>
-<NavLink to ="/contact">Appointment</NavLink>
+<NavLink to ="/blog">Blog</NavLink>
 </li>
 
 </ul>

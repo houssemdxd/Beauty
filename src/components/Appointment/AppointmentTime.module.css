@@ -9,14 +9,14 @@ padding:5px;
    font-family: sans-serif ;
 }
 .appointmentTime:hover {
-background-color: #006edc;
+background-color: #f2b0b492 !important;
 ;
 scale: 1.01;
 color: white;
 
 }
 .selected
-{background-color: #006edc;
+{background-color: #f2b0b492 !important;
 ;
 scale: 1.01;
 color: white;

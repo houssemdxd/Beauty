@@ -4,6 +4,7 @@ import CalendarComponent from './CalendarComponent'
 import AppointmentCard from './AppointmentCard'
 import AppointmentTypeList from './AppointmentTypeList'
 import AppointmentTime from './AppointmentTime'
+import Button from '../Button'
 export default function Appointemnt() {
 
 
@@ -27,7 +28,6 @@ setSelectedTimeKey(id)
 <div className={styles.appointemnt}>
   
 <div className = {styles.appointemntType}>
-
 <AppointmentTypeList/>
 
 </div>
@@ -47,7 +47,7 @@ setSelectedTimeKey(id)
 
 
 </div>
-
+<button className={styles.bookButton} disabled >book now </button>
 </div>
 
 
