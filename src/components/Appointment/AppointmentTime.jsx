@@ -1,7 +1,7 @@
 import React from 'react'
 import  styles from './AppointmentTime.module.css'
-export default function AppointmentTime({time}) {
+export default function AppointmentTime({time,id,onChange,selected}) {
   return (
-    <div className={styles.appointmentTime}> {time}:00 am</div>
+    <div className={` ${id === selected? styles.selected: " "}    ${styles.appointmentTime}`}     onClick={()=>{onChange(id)}}> {time}:00 am</div>
   )
 }

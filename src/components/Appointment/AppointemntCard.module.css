@@ -20,5 +20,8 @@
 .checked
 {
 color: white;
-  background-color: #bca8589e;
+  background-color: #006edc;
+}
+.checked p{
+  color: white;
 }

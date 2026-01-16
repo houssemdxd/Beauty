@@ -9,6 +9,8 @@ export default function AppointmentTypeList() {
 const AppoitmentsTypes = ["first text ","second text ","third text ","fourth text "]
 const [selecetdItem,setSelelectedItem] = useState("");
 
+
+
 function onSelect(key)
 {
   console.log("element with key ",key , "is likced")

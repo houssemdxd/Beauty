@@ -1,4 +1,4 @@
-import React from 'react'
+import {React,useState} from 'react'
 import styles from "./Appointment.module.css"
 import CalendarComponent from './CalendarComponent'
 import AppointmentCard from './AppointmentCard'
@@ -13,9 +13,13 @@ export default function Appointemnt() {
 
 
 const  times = ["8","9","10","11","12","13","14","15","16","17","18","19",]
+const [selectedTimekey,setSelectedTimeKey] = useState()
 
 
-
+function onChangeTime(id)
+{
+setSelectedTimeKey(id)
+}
 
 
   return (
@@ -34,7 +38,7 @@ const  times = ["8","9","10","11","12","13","14","15","16","17","18","19",]
 
 
 <div className={styles.time}>
-{times.map((item)=>{return <AppointmentTime time={item}  />})}
+{times.map((item,index)=>{return <AppointmentTime selected = {selectedTimekey}   id={index}   key={index} time={item} onChange = {onChangeTime} />})}
 
 
 </div>
