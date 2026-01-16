@@ -1,6 +1,6 @@
 .appointmentCard{
 
-  width :35%;
+  width :330px;
   background-color: rgb(255, 255, 255);
   text-align: left;
   padding: 10pX;
@@ -16,4 +16,9 @@
     transform 0.35s ease,
     box-shadow 0.35s ease;
     border-radius: 10px;
+}
+.checked
+{
+color: white;
+  background-color: #bca8589e;
 }

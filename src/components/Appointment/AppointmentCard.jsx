@@ -1,16 +1,18 @@
 import React from 'react'
 import  styles from "./AppointemntCard.module.css" 
 
- export default function AppointmentCard() {
+ export default function AppointmentCard({item,id,onSelect,selectedKey}) {
 
-const content = "initial tax consultaion "
+
 const duration = "1 hour"
 
 
   return (
-    <div className={styles.appointmentCard}>
+    <div className={`${id ===selectedKey ? styles.checked:""} ${styles.appointmentCard}`}  onClick={()=>{onSelect(id)}}  >
 
-<input type="radio" name='type' /> <label htmlFor="">{content}</label>
+<input type="radio" name='type'  checked = {id ===selectedKey}  /> <label htmlFor="">{item}</label>
+
+
 <p>{duration}</p>
 
     </div>

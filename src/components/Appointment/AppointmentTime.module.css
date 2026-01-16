@@ -1,0 +1,17 @@
+.appointmentTime{
+padding:5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   width: 90px;
+   box-shadow: 1px 1px 1px rgb(227, 220, 220);
+   font-family: sans-serif ;
+}
+.appointmentTime:hover {
+background-color: #006edc;
+;
+scale: 1.01;
+color: white;
+
+}
